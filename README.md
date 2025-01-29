@@ -22,20 +22,20 @@ How well those variables describe the bike demands
 ## Conclusions
 - Univariate Analysis :
   Categorical columns
-    1- In the fall season, the highest number of bike rentals is 188, compared to other seasons.
-    2 - We can observe that for both years 2018 and 2019, the number of bike rentals are same.
-    As per the data, alternate months starting from January show an increase in the number of bike rentals. However, in July and August, the number of bike rentals remains the same. The lowest bike rentals   
+    - In the fall season, the highest number of bike rentals is 188, compared to other seasons.
+    - We can observe that for both years 2018 and 2019, the number of bike rentals are same.
+    - As per the data, alternate months starting from January show an increase in the number of bike rentals. However, in July and August, the number of bike rentals remains the same. The lowest bike rentals   
     occurred in February.
-    709 bike rentals were done on a working day as compared to holidays.
-    Almost all weekdays have same number of bike rentals.
-    A total of 499 bike rentals occurred on working days rather than holidays or weekends.
-    The highest number of bike rentals occurred during clear weather conditions.
+    - 709 bike rentals were done on a working day as compared to holidays.
+    - Almost all weekdays have same number of bike rentals.
+    - A total of 499 bike rentals occurred on working days rather than holidays or weekends.
+    - The highest number of bike rentals occurred during clear weather conditions.
   Numerical columns
-    The highest number of bike rentals occurred when the temperature was between 25 and 30 degrees Celsius.
-    The highest number of bike rentals also occurred when the feels-like temperature (apparent temperature) was between 25 and 30 degrees Celsius.
-    According to the data, bike rentals peaked when the humidity level was around 60%.
-    The highest number of bike rentals occurred when the wind speed was between 10 and 15 km/h.
-    The majority of total bike rental counts fell between 4000 and 6000.
+    - The highest number of bike rentals occurred when the temperature was between 25 and 30 degrees Celsius.
+    - The highest number of bike rentals also occurred when the feels-like temperature (apparent temperature) was between 25 and 30 degrees Celsius.
+    - According to the data, bike rentals peaked when the humidity level was around 60%.
+    - The highest number of bike rentals occurred when the wind speed was between 10 and 15 km/h.
+    - The majority of total bike rental counts fell between 4000 and 6000.
 - Bivariate Analysis :
   Categorical columns VS Cnt
     In the season of fall, the number of bike rentals were the highest as comapred to other season's.
