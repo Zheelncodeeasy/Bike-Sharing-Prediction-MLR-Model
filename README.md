@@ -1,4 +1,4 @@
-# Bike Sharing Prediction 
+# Bike Sharing Prediction MLR Model
 > A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state.
 > The company wants to know:
 Which variables are significant in predicting the demand for shared bikes.
@@ -14,10 +14,10 @@ How well those variables describe the bike demands
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Using multi linear regression model, we have to help BoomBikes find the predictors that will help to increase their revenue and boost their business among their customers.
+- A USA based company BoomBikes has suffered from revenue dips in Corona and wants to understand various factors affecting the same. Using multi linear regression model on the
+  dataset we will predict the bike rental count with the help of various features.
+- We are using bike sharing dataset provided by the company - day.csv
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
