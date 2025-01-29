@@ -20,7 +20,7 @@ How well those variables describe the bike demands
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Univariate Analysis -
+- Univariate Analysis :
   Categorical columns
     In the fall season, the highest number of bike rentals is 188, compared to other seasons.
     We can observe that for both years 2018 and 2019, the number of bike rentals are same.
@@ -36,9 +36,38 @@ How well those variables describe the bike demands
     According to the data, bike rentals peaked when the humidity level was around 60%.
     The highest number of bike rentals occurred when the wind speed was between 10 and 15 km/h.
     The majority of total bike rental counts fell between 4000 and 6000.
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Bivariate Analysis :
+  Categorical columns VS Cnt
+    In the season of fall, the number of bike rentals were the highest as comapred to other season's.
+    In the year 2019, bike rentals reached their peak.
+    The months of June and September saw the highest number of bike rentals.
+    As per the data, highest number of bike rentals were done during working days.
+    There is an increasing trend in bike rentals from Sunday to Friday.
+    Bikes were rented more frequently on working days than on holidays or weekends.
+    Clear weather conditions were the most favorable for bike rentals.
+  Numerical columns VS Cnt
+    We can observe positive correlation between temperature and cnt as well as feels-like temperature and cnt.As the temperature and apparent temperature increases, there is also an increase in the count of bike 
+    rentals.
+    For humidity, we can see wide distribution of bike rentals count.
+    Windspeed between 5 to 25 km/hr also shows distribution with count ranging upto 8000.
+- Final Model building Observation
+    Using RFE approach, we selected the top 15 independent variables. Then we proceeded with manual approach and build the model with 15 variables.
+    Using statsmodel, we build the model where we got the adjusted R square as 84.3 %
+    We noticed that variable Fall had high pf and vif value, so we dropped it and build the model again.
+    In the final model, the adjusted R square remained the same indicating variable Fall was a insignificant variable.
+    After building the final model, all the pvalues for independent variables were below 0.05 and vif was below 5.
+    The F-statistic for the final model had a very small p-value (8.70e-192), indicating a highly significant fit among the variables.
+- Analysis on Test Data
+    The R square score on the test data is 81.4%, and the R square score on the training data is 84.8%.
+    The difference between the R square scores of the training and test data is 3.4%, indicating that the model has performed well on the test data.
+- Summary
+    Temperature has the strongest correlation with bike rental count (cnt) stating that when the temperature increases the bike rental count will also increase.
+    In the year 2019, bike rentals significantly increased compared to 2018, showing substantial boom in Boombikes' business.
+    Bikes were rented the most during the winter and summer seasons.
+    Months August,September,October contrbuted the most to bike rental count.
+    Among the months analyzed, September had the highest positive impact on bike rental counts, while August and October had smaller, yet positive contributions.
+    Cloudy weather and light snow have a negative impact on bike rental counts. Additionally, humidity and windspeed also negatively affect bike rentals.
+    Both Saturday and working days have a positive effect on bike rental counts.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
