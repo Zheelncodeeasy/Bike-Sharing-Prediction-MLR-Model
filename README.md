@@ -14,15 +14,28 @@ How well those variables describe the bike demands
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Using multi linear regression model, we have to help BoomBikes find the predictors that will help to increase their revenue and boost their business among their customers.
-- A USA based company BoomBikes has suffered from revenue dips in Corona and wants to understand various factors affecting the same. Using multi linear regression model on the
-  dataset we will predict the bike rental count with the help of various features.
-- We are using bike sharing dataset provided by the company - day.csv
-
+- Using a multiple linear regression model, we aim to help BoomBikes identify the key predictors that could increase their revenue and enhance their business among customers.
+- BoomBikes, a USA-based company, experienced a dip in revenue during the COVID-19 pandemic and wants to understand the various factors contributing to this decline. By applying a multiple linear regression model to the dataset, we will predict the bike rental count using several key features.
+- For this analysis, we are using the bike sharing dataset provided by the company, specifically the file day.csv.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
+- Univariate Analysis -
+  Categorical columns
+    In the fall season, the highest number of bike rentals is 188, compared to other seasons.
+    We can observe that for both years 2018 and 2019, the number of bike rentals are same.
+    As per the data, alternate months starting from January show an increase in the number of bike rentals. However, in July and August, the number of bike rentals remains the same. The lowest bike rentals   
+    occurred in February.
+    709 bike rentals were done on a working day as compared to holidays.
+    Almost all weekdays have same number of bike rentals.
+    A total of 499 bike rentals occurred on working days rather than holidays or weekends.
+    The highest number of bike rentals occurred during clear weather conditions.
+  Numerical columns
+    The highest number of bike rentals occurred when the temperature was between 25 and 30 degrees Celsius.
+    The highest number of bike rentals also occurred when the feels-like temperature (apparent temperature) was between 25 and 30 degrees Celsius.
+    According to the data, bike rentals peaked when the humidity level was around 60%.
+    The highest number of bike rentals occurred when the wind speed was between 10 and 15 km/h.
+    The majority of total bike rental counts fell between 4000 and 6000.
 - Conclusion 2 from the analysis
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
@@ -42,10 +55,6 @@ Give credit here.
 - This project was inspired by...
 - References if any...
 - This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
 
 
 <!-- Optional -->
