@@ -9,7 +9,6 @@ How well those variables describe the bike demands
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -51,39 +50,38 @@ How well those variables describe the bike demands
     - For humidity, we can see wide distribution of bike rentals count.
     - Windspeed between 5 to 25 km/hr also shows distribution with count ranging upto 8000.
 - Final Model building Observation
-    Using RFE approach, we selected the top 15 independent variables. Then we proceeded with manual approach and build the model with 15 variables.
-    Using statsmodel, we build the model where we got the adjusted R square as 84.3 %
-    We noticed that variable Fall had high pf and vif value, so we dropped it and build the model again.
-    In the final model, the adjusted R square remained the same indicating variable Fall was a insignificant variable.
-    After building the final model, all the pvalues for independent variables were below 0.05 and vif was below 5.
-    The F-statistic for the final model had a very small p-value (8.70e-192), indicating a highly significant fit among the variables.
+    - Using RFE approach, we selected the top 15 independent variables. Then we proceeded with manual approach and build the model with 15 variables.
+    - Using statsmodel, we build the model where we got the adjusted R square as 84.3 %
+    - We noticed that variable Fall had high pf and vif value, so we dropped it and build the model again.
+    - In the final model, the adjusted R square remained the same indicating variable Fall was a insignificant variable.
+    - After building the final model, all the pvalues for independent variables were below 0.05 and vif was below 5.
+    - The F-statistic for the final model had a very small p-value (8.70e-192), indicating a highly significant fit among the variables.
 - Analysis on Test Data
-    The R square score on the test data is 81.4%, and the R square score on the training data is 84.8%.
-    The difference between the R square scores of the training and test data is 3.4%, indicating that the model has performed well on the test data.
+    - The R square score on the test data is 81.4%, and the R square score on the training data is 84.8%.
+    - The difference between the R square scores of the training and test data is 3.4%, indicating that the model has performed well on the test data.
 - Summary
-    Temperature has the strongest correlation with bike rental count (cnt) stating that when the temperature increases the bike rental count will also increase.
-    In the year 2019, bike rentals significantly increased compared to 2018, showing substantial boom in Boombikes' business.
-    Bikes were rented the most during the winter and summer seasons.
-    Months August,September,October contrbuted the most to bike rental count.
-    Among the months analyzed, September had the highest positive impact on bike rental counts, while August and October had smaller, yet positive contributions.
-    Cloudy weather and light snow have a negative impact on bike rental counts. Additionally, humidity and windspeed also negatively affect bike rentals.
-    Both Saturday and working days have a positive effect on bike rental counts.
+    - Temperature has the strongest correlation with bike rental count (cnt) stating that when the temperature increases the bike rental count will also increase.
+    - In the year 2019, bike rentals significantly increased compared to 2018, showing substantial boom in Boombikes' business.
+    - Bikes were rented the most during the winter and summer seasons.
+    - Months August,September,October contrbuted the most to bike rental count.
+    - Among the months analyzed, September had the highest positive impact on bike rental counts, while August and October had smaller, yet positive contributions.
+    - Cloudy weather and light snow have a negative impact on bike rental counts. Additionally, humidity and windspeed also negatively affect bike rentals.
+    - Both Saturday and working days have a positive effect on bike rental counts.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Numpy version:  1.21.5
+- Pandas version:  1.4.2
+- Matplotlib version:  3.5.1
+- Seaborn version:  0.11.2
+- Scikit-learn version:  1.0.2
+- Statsmodels version:  0.13.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+
 
 
 <!-- Optional -->
