@@ -21,7 +21,7 @@ How well those variables describe the bike demands
 
 ## Conclusions
 - Univariate Analysis :
-  Categorical columns
+  1. Categorical columns
     - In the fall season, the highest number of bike rentals is 188, compared to other seasons.
     - We can observe that for both years 2018 and 2019, the number of bike rentals are same.
     - As per the data, alternate months starting from January show an increase in the number of bike rentals. However, in July and August, the number of bike rentals remains the same. The lowest bike rentals   
@@ -30,26 +30,26 @@ How well those variables describe the bike demands
     - Almost all weekdays have same number of bike rentals.
     - A total of 499 bike rentals occurred on working days rather than holidays or weekends.
     - The highest number of bike rentals occurred during clear weather conditions.
-  Numerical columns
+  2. Numerical columns
     - The highest number of bike rentals occurred when the temperature was between 25 and 30 degrees Celsius.
     - The highest number of bike rentals also occurred when the feels-like temperature (apparent temperature) was between 25 and 30 degrees Celsius.
     - According to the data, bike rentals peaked when the humidity level was around 60%.
     - The highest number of bike rentals occurred when the wind speed was between 10 and 15 km/h.
     - The majority of total bike rental counts fell between 4000 and 6000.
 - Bivariate Analysis :
-  Categorical columns VS Cnt
-    In the season of fall, the number of bike rentals were the highest as comapred to other season's.
-    In the year 2019, bike rentals reached their peak.
-    The months of June and September saw the highest number of bike rentals.
-    As per the data, highest number of bike rentals were done during working days.
-    There is an increasing trend in bike rentals from Sunday to Friday.
-    Bikes were rented more frequently on working days than on holidays or weekends.
-    Clear weather conditions were the most favorable for bike rentals.
-  Numerical columns VS Cnt
-    We can observe positive correlation between temperature and cnt as well as feels-like temperature and cnt.As the temperature and apparent temperature increases, there is also an increase in the count of bike 
-    rentals.
-    For humidity, we can see wide distribution of bike rentals count.
-    Windspeed between 5 to 25 km/hr also shows distribution with count ranging upto 8000.
+  1. Categorical columns VS Cnt
+    - In the season of fall, the number of bike rentals were the highest as comapred to other season's.
+    - In the year 2019, bike rentals reached their peak.
+    - The months of June and September saw the highest number of bike rentals.
+    - As per the data, highest number of bike rentals were done during working days.
+    - There is an increasing trend in bike rentals from Sunday to Friday.
+    - Bikes were rented more frequently on working days than on holidays or weekends.
+    - Clear weather conditions were the most favorable for bike rentals.
+  2. Numerical columns VS Cnt
+    - We can observe positive correlation between temperature and cnt as well as feels-like temperature and cnt.As the temperature and apparent temperature increases, there is also an increase in the count 
+      of bike rentals.
+    - For humidity, we can see wide distribution of bike rentals count.
+    - Windspeed between 5 to 25 km/hr also shows distribution with count ranging upto 8000.
 - Final Model building Observation
     Using RFE approach, we selected the top 15 independent variables. Then we proceeded with manual approach and build the model with 15 variables.
     Using statsmodel, we build the model where we got the adjusted R square as 84.3 %
