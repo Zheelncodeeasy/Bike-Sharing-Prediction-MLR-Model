@@ -22,8 +22,8 @@ How well those variables describe the bike demands
 ## Conclusions
 - Univariate Analysis :
   Categorical columns
-    In the fall season, the highest number of bike rentals is 188, compared to other seasons.
-    We can observe that for both years 2018 and 2019, the number of bike rentals are same.
+    1- In the fall season, the highest number of bike rentals is 188, compared to other seasons.
+    2 - We can observe that for both years 2018 and 2019, the number of bike rentals are same.
     As per the data, alternate months starting from January show an increase in the number of bike rentals. However, in July and August, the number of bike rentals remains the same. The lowest bike rentals   
     occurred in February.
     709 bike rentals were done on a working day as compared to holidays.
